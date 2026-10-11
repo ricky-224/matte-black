@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "src/app/globals.css"
+        ],
+        "createdAt": "2026-08-22T16:37:45.671Z",
+        "reason": "metal-text gradient is an intentional, narrowly-scoped brand exception reserved for the wordmark only (see project log 2026-08-21 Design system entry)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "helvetica",
+        "createdAt": "2026-08-22T23:42:38.413Z",
+        "reason": "HTML email font stack, not site UI — mail clients don't reliably support custom web fonts, so Helvetica/Arial/sans-serif is the standard safe fallback for transactional email HTML, not a generic-branding choice"
+      }
+    ]
+  }
+}
